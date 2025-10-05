@@ -5,8 +5,12 @@ import HeaderLink from './HeaderLink.astro';
 
 <header>
 	<nav class="navbar">
-		<div class="navbar-container'>
-			<h2><a href="/">{SITE_TITLE}</a></h2>
+		<div class="navbar-container">
+			<h2>
+				<a class="navbar-logo" href="/">
+					{SITE_TITLE}
+				</a>
+			</h2>
 			<div class="navbar-menu">
 				<HeaderLink class="navbar-item" href="/">Home</HeaderLink>
 				<HeaderLink class="navbar-item" href="/blog">Blog</HeaderLink>
